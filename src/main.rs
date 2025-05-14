@@ -16,5 +16,5 @@ fn main() {
     
     // Menghitung jumlah elemen array
     let sum: i32 = arr.iter().sum();
-    println!("Jumlah semua elemen array: {}", sum);
+    println!("Jumlah semua elemen arrayyyyy: {}", sum);
 }
