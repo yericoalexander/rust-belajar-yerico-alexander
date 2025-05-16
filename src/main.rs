@@ -1,3 +1,8 @@
+mod mei_16 {
+    pub mod ownership;
+}
+
+
 fn main() {
     println!("Belajar Rust - 14-19 Mei 2025");
 
@@ -111,6 +116,11 @@ fn main() {
     
     let data = data.parse::<i32>().unwrap();  // Shadowing dengan tipe berbeda
     println!("Data (integer): {}", data);
+
+    mei_16::ownership::ownership_rules();
+    mei_16::ownership::borrowing();
+    mei_16::ownership::string_vs_str();
+    mei_16::ownership::lifetime_basics();
 }
 
 // Function dengan return value
