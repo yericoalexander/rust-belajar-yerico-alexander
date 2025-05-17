@@ -2,6 +2,10 @@ mod mei_16 {
     pub mod ownership;
 }
 
+mod mei_17 {
+    pub mod structs;
+}
+
 
 fn main() {
     println!("Belajar Rust - 14-19 Mei 2025");
@@ -121,6 +125,13 @@ fn main() {
     mei_16::ownership::borrowing();
     mei_16::ownership::string_vs_str();
     mei_16::ownership::lifetime_basics();
+
+    mei_17::structs::basic_struct();
+    mei_17::structs::impl_struct();
+    mei_17::structs::basic_enum();
+    mei_17::structs::match_example();
+    mei_17::structs::option_example();
+    mei_17::structs::result_example();
 }
 
 // Function dengan return value
