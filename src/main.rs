@@ -6,6 +6,10 @@ mod mei_17 {
     pub mod structs;
 }
 
+mod mei_19 {
+    pub mod collection;
+}
+
 
 fn main() {
     println!("Belajar Rust - 14-19 Mei 2025");
@@ -132,6 +136,11 @@ fn main() {
     mei_17::structs::match_example();
     mei_17::structs::option_example();
     mei_17::structs::result_example();
+
+    mei_19::collection::basic_vector();
+    mei_19::collection::basic_hashmap();
+    mei_19::collection::result_and_question_mark();
+    mei_19::collection::panic_vs_recoverable();
 }
 
 // Function dengan return value

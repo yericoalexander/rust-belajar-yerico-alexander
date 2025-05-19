@@ -2,7 +2,7 @@
         pub fn basic_struct() {
             println!("\n--- Struct, Enum, & Pattern Matching ---\n");
 
-            println!("\n1. STRUCT DASAR");
+            println!("1. STRUCT DASAR");
             println!("--------------");
             
             // Definisi struct
