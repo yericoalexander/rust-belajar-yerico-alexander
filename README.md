@@ -1,7 +1,3 @@
-# Belajar Rust
-
-Repositori pembelajaran Rust dengan materi bertahap untuk pemula hingga menengah.
-
 ## **🚀 Pengenalan Rust**
 
 **Rust** adalah bahasa pemrograman sistem modern yang menawarkan:
